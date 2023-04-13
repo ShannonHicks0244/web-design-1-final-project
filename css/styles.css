@@ -61,17 +61,39 @@ nav h1 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-
-
 .learnmore1,
 .learnmore2,
 .learnmore3 {
     background-color: black;
     color: white;
     border: 8px;
-    width: 8%;
+    width: 25%;
     text-align: center;
+}
+
+.workimages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.workimages :nth-child(1) {
+    width: 50%;
+}
+
+.workimages :nth-child(2) {
+    width: 50%;
+}
+
+.workimages :nth-child(3) {
+    width: 33.3%;
+}
+
+.workimages :nth-child(4) {
+    width: 33.3%;
+}
+
+.workimages :nth-child(5) {
+    width: 33.3%;
 }
 
 .socialmedia {
