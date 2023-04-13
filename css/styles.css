@@ -30,6 +30,28 @@ nav h1 {
     margin: 1rem;
 }
 
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me h1 {
+    width: 100%;
+}
+
+.about-me h2 {
+    width: 100%;
+}
+
+.about-me p {
+    width: 60%;
+}
+
+.about-me img {
+    width: 40%;
+    
+}
+
 .socialmedia {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
