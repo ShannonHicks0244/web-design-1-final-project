@@ -10,16 +10,34 @@ header {
     background-color: black;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
-ul {
-    display: inline-flex;
-    flex-wrap: wrap;
+li {
+    padding: 1rem;
+    margin: 1rem;
 }
+
+nav h1 {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.socialmedia {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    width: 5%;
+    
+    
+
+}
+
 
 
 
