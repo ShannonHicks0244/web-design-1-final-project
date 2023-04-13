@@ -1,1 +1,5 @@
-/*font-family: 'Aleo', serif;/*
+/*font-family: 'Aleo', serif;*/
+
+html {
+    font-family: Aleo, serif;
+}
