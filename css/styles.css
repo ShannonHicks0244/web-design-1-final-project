@@ -38,6 +38,14 @@ nav h1 {
 }
 
 
+.learnmore1, .learnmore2, .learnmore3 {
+    background-color: black;
+    color: white;
+    border: 8px;
+    width: 8%;
+    text-align: center;
+}
+
 footer {
     background-color: #000;
     color: white;
