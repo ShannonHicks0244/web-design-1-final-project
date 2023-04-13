@@ -27,6 +27,7 @@ a:hover {
 a:focus {
     color: rebeccapurple;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -35,15 +36,16 @@ nav ul {
     justify-content: flex-end;
 }
 
+#nav li:nth-child(1) {
+font-size: x-large;
+text-align: left;
+}
+
 li {
     padding: 1rem;
     margin: 1rem;
 }
 
-nav h1 {
-    padding: 1rem;
-    margin: 1rem;
-}
 
 .about-me {
     display: flex;
