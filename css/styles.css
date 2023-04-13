@@ -4,11 +4,22 @@ html {
 
 .wrapper {
     width: 1280px;
+    margin: 0 auto;
 }
 
 header {
     color: white;
     background-color: black;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header span {
+
+}
+
+header img {
+    width: 100%;
 }
 
 a:link {
@@ -36,11 +47,6 @@ nav ul {
     justify-content: flex-end;
 }
 
-#nav li:nth-child(1) {
-    font-size: x-large;
-    text-align: left;
-}
-
 li {
     padding: 1rem;
     margin: 1rem;
@@ -49,24 +55,21 @@ li {
 
 .about-me {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
 }
 
 .about-me h1 {
-    width: 100%;
+    /* width: 100%; */
     margin-top: 6rem;
     margin-left: 3rem;
     font-size: 2rem;
 }
 
 .about-me h2 {
-    width: 100%;
     margin-left: 3rem;
 }
 
 .about-me p {
-    width: 60%;
+    /* width: 60%; */
     margin-left: 3rem;
 }
 
