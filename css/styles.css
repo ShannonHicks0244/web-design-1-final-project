@@ -37,8 +37,8 @@ nav ul {
 }
 
 #nav li:nth-child(1) {
-font-size: x-large;
-text-align: left;
+    font-size: x-large;
+    text-align: left;
 }
 
 li {
@@ -77,6 +77,7 @@ li {
 .services {
     background-color: #FAFAFA;
 }
+
 .services h1 {
     text-align: center;
     padding: 3rem;
@@ -86,11 +87,11 @@ li {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-   gap: 2rem;
-   padding-left: 5rem;
-   padding-right: 5rem;
-   margin-top: 0;
-   padding-bottom: 6rem;
+    gap: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 0;
+    padding-bottom: 6rem;
 }
 
 .logo {
@@ -118,7 +119,7 @@ li {
     text-align: center;
 }
 
-.my-work h1{
+.my-work h1 {
     text-align: center;
     margin-top: 6rem;
 }
