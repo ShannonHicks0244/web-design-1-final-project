@@ -33,11 +33,15 @@ nav h1 {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
     width: 5%;
-    
-    
-
 }
 
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
 
 
 
