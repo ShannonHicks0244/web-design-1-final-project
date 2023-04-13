@@ -4,7 +4,9 @@ html {
     font-family: Aleo, serif;
 }
 
-
+.wrapper {
+    width: 1280px;
+}
 header {
     color: white;
     background-color: black;
