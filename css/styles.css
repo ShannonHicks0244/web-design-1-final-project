@@ -7,6 +7,7 @@ html {
 .wrapper {
     width: 1280px;
 }
+
 header {
     color: white;
     background-color: black;
@@ -49,7 +50,28 @@ nav h1 {
 
 .about-me img {
     width: 40%;
-    
+}
+
+.services h1 {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+.learnmore1,
+.learnmore2,
+.learnmore3 {
+    background-color: black;
+    color: white;
+    border: 8px;
+    width: 8%;
+    text-align: center;
 }
 
 .socialmedia {
@@ -59,21 +81,9 @@ nav h1 {
     width: 5%;
 }
 
-
-.learnmore1, .learnmore2, .learnmore3 {
-    background-color: black;
-    color: white;
-    border: 8px;
-    width: 8%;
-    text-align: center;
-}
-
 footer {
     background-color: #000;
     color: white;
     padding: 5px;
     text-align: center;
 }
-
-
-
