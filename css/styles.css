@@ -62,12 +62,32 @@ nav h1 {
 .services h1 {
     text-align: center;
     padding: 3rem;
-    margin-top: 4rem;
+    margin-bottom: 0;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+   gap: 2rem;
+   padding-left: 5rem;
+   padding-right: 5rem;
+   margin-top: 0;
+   padding-bottom: 6rem;
+}
+
+.logo {
+    background-color: white;
+    padding: 1rem;
+}
+
+.web {
+    background-color: white;
+    padding: 1rem;
+}
+
+.branding {
+    background-color: white;
+    padding: 1rem;
 }
 
 .learnmore1,
@@ -76,7 +96,7 @@ nav h1 {
     background-color: black;
     color: white;
     border: 8px;
-    width: 25%;
+    width: 30%;
     text-align: center;
 }
 
