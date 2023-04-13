@@ -159,12 +159,23 @@ cite {
     color: #FAFAFA;
 }
 
+.contact-me {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.contact-me h1 {
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 30px;
+}
+
 .socialmedia {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-content: center;
     column-gap: 5px;
-    width: 5%;
+    width: 6%;
 }
 
 footer {
